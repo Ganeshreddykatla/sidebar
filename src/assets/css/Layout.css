@@ -1,0 +1,89 @@
+/* Sidebar styling starts here */
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background: #ffffff;
+    padding: 6px 14px;
+    z-index: 99;
+    transition: all 0.5s ease;
+    border: #ccc 1px solid;
+  }
+.sidebar .sidebar_logo {
+  margin-top: 20px;
+    margin-left: -7px;
+}
+.sidebar .sidebar_list {
+  margin-top: 60px
+}
+.sidebar ul  {
+  padding-left: 10px;
+
+}
+.sidebar ul li {
+  list-style:  none;
+  padding-left: 0;
+}
+.sidebar .sidebar_list ul li span.tooltip{
+  display: none;
+}
+.sidebar .sidebar_list ul li span.tooltip:hover {
+   color: black;
+   display: inline ;
+}
+
+/* Sidebar styling ends here */
+
+
+/* Sidebaropen start  */
+
+
+.sidebarOpen{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200px;
+  background: #ffffff;
+  padding: 6px 14px;
+  z-index: 99;
+  transition: all 0.5s ease;
+  border: #ccc 1px solid;
+}
+.sidebarOpen .sidebarOpen_logo {
+margin-top: 20px;
+margin-left: 60px
+}
+.sidebarOpen .sidebarOpen_list {
+margin-top: 60px
+}
+.sidebarOpen ul  {
+padding-left: 10px;
+
+}
+.sidebarOpen .sidebarOpen_list ul li {
+list-style:  none;
+padding-left: 0;
+display: flex;
+}
+.sidebarOpen .sidebarOpen_list ul li span.tooltip {
+  list-style:  none;
+  padding-left: 20px;
+  margin-bottom: 4px;
+  }
+  .sidebarOpen .sidebarOpen_submenu {
+    position: absolute;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+    margin-top: 30px;
+  }
+  .sidebarOpen .sidebarOpen_submenu ul li {
+    padding: 5px;
+  }
+
+
+/* Sidebaropen ends */
